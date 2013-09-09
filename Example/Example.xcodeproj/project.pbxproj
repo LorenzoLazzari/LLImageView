@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDEA37DE17DDC7B100069B09 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDEA37DD17DDC7B100069B09 /* Cocoa.framework */; };
+		EDEA37E817DDC7B100069B09 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EDEA37E617DDC7B100069B09 /* InfoPlist.strings */; };
+		EDEA37EA17DDC7B100069B09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEA37E917DDC7B100069B09 /* main.m */; };
+		EDEA37EE17DDC7B100069B09 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = EDEA37EC17DDC7B100069B09 /* Credits.rtf */; };
+		EDEA37F117DDC7B100069B09 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEA37F017DDC7B100069B09 /* AppDelegate.m */; };
+		EDEA37F417DDC7B100069B09 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDEA37F217DDC7B100069B09 /* MainMenu.xib */; };
+		EDEA37FC17DDC7D900069B09 /* LLImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEA37FB17DDC7D900069B09 /* LLImageView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EDEA37DA17DDC7B100069B09 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDEA37DD17DDC7B100069B09 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		EDEA37E017DDC7B100069B09 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		EDEA37E117DDC7B100069B09 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		EDEA37E217DDC7B100069B09 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EDEA37E517DDC7B100069B09 /* Example-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Example-Info.plist"; sourceTree = "<group>"; };
+		EDEA37E717DDC7B100069B09 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EDEA37E917DDC7B100069B09 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDEA37EB17DDC7B100069B09 /* Example-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Example-Prefix.pch"; sourceTree = "<group>"; };
+		EDEA37ED17DDC7B100069B09 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		EDEA37EF17DDC7B100069B09 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EDEA37F017DDC7B100069B09 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EDEA37F317DDC7B100069B09 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		EDEA37FA17DDC7D900069B09 /* LLImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LLImageView.h; path = ../../Class/LLImageView.h; sourceTree = "<group>"; };
+		EDEA37FB17DDC7D900069B09 /* LLImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LLImageView.m; path = ../../Class/LLImageView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDEA37D717DDC7B100069B09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDEA37DE17DDC7B100069B09 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDEA37D117DDC7B100069B09 = {
+			isa = PBXGroup;
+			children = (
+				EDEA37E317DDC7B100069B09 /* Example */,
+				EDEA37DC17DDC7B100069B09 /* Frameworks */,
+				EDEA37DB17DDC7B100069B09 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDEA37DB17DDC7B100069B09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDEA37DA17DDC7B100069B09 /* Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDEA37DC17DDC7B100069B09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDEA37DD17DDC7B100069B09 /* Cocoa.framework */,
+				EDEA37DF17DDC7B100069B09 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EDEA37DF17DDC7B100069B09 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDEA37E017DDC7B100069B09 /* AppKit.framework */,
+				EDEA37E117DDC7B100069B09 /* CoreData.framework */,
+				EDEA37E217DDC7B100069B09 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		EDEA37E317DDC7B100069B09 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				EDEA37EF17DDC7B100069B09 /* AppDelegate.h */,
+				EDEA37F017DDC7B100069B09 /* AppDelegate.m */,
+				EDEA37F217DDC7B100069B09 /* MainMenu.xib */,
+				EDEA37FA17DDC7D900069B09 /* LLImageView.h */,
+				EDEA37FB17DDC7D900069B09 /* LLImageView.m */,
+				EDEA37E417DDC7B100069B09 /* Supporting Files */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		EDEA37E417DDC7B100069B09 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDEA37E517DDC7B100069B09 /* Example-Info.plist */,
+				EDEA37E617DDC7B100069B09 /* InfoPlist.strings */,
+				EDEA37E917DDC7B100069B09 /* main.m */,
+				EDEA37EB17DDC7B100069B09 /* Example-Prefix.pch */,
+				EDEA37EC17DDC7B100069B09 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDEA37D917DDC7B100069B09 /* Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDEA37F717DDC7B100069B09 /* Build configuration list for PBXNativeTarget "Example" */;
+			buildPhases = (
+				EDEA37D617DDC7B100069B09 /* Sources */,
+				EDEA37D717DDC7B100069B09 /* Frameworks */,
+				EDEA37D817DDC7B100069B09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Example;
+			productName = Example;
+			productReference = EDEA37DA17DDC7B100069B09 /* Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDEA37D217DDC7B100069B09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Lorenzo;
+			};
+			buildConfigurationList = EDEA37D517DDC7B100069B09 /* Build configuration list for PBXProject "Example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EDEA37D117DDC7B100069B09;
+			productRefGroup = EDEA37DB17DDC7B100069B09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDEA37D917DDC7B100069B09 /* Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDEA37D817DDC7B100069B09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDEA37E817DDC7B100069B09 /* InfoPlist.strings in Resources */,
+				EDEA37EE17DDC7B100069B09 /* Credits.rtf in Resources */,
+				EDEA37F417DDC7B100069B09 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDEA37D617DDC7B100069B09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDEA37EA17DDC7B100069B09 /* main.m in Sources */,
+				EDEA37F117DDC7B100069B09 /* AppDelegate.m in Sources */,
+				EDEA37FC17DDC7D900069B09 /* LLImageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EDEA37E617DDC7B100069B09 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDEA37E717DDC7B100069B09 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EDEA37EC17DDC7B100069B09 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDEA37ED17DDC7B100069B09 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		EDEA37F217DDC7B100069B09 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDEA37F317DDC7B100069B09 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDEA37F517DDC7B100069B09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EDEA37F617DDC7B100069B09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EDEA37F817DDC7B100069B09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Example/Example-Prefix.pch";
+				INFOPLIST_FILE = "Example/Example-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EDEA37F917DDC7B100069B09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Example/Example-Prefix.pch";
+				INFOPLIST_FILE = "Example/Example-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDEA37D517DDC7B100069B09 /* Build configuration list for PBXProject "Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDEA37F517DDC7B100069B09 /* Debug */,
+				EDEA37F617DDC7B100069B09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDEA37F717DDC7B100069B09 /* Build configuration list for PBXNativeTarget "Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDEA37F817DDC7B100069B09 /* Debug */,
+				EDEA37F917DDC7B100069B09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDEA37D217DDC7B100069B09 /* Project object */;
+}
